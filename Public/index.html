@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="titulo">Gestión de actividades</h1>
+
+    <div class="Empresa">
+        <h2 class="encabezado">Formulario de actividad</h2>
+        <form id="formulario">
+            <h3>Nombre del empleado</h3>
+            <input type="text" id="nombres" placeholder="Nombres" required>
+            <input type="text" id="apellidos" placeholder="Apellidos" required>
+
+            <h3>Nombre de la actividad</h3>
+            <input type="text" id="actividad" placeholder="Nombre de la actividad" required>
+
+            <h3>Descripción</h3>
+            <textarea id="descripcion" placeholder="Escribe la descripción" required></textarea>
+
+            <h3>Estado del trabajo</h3>
+            <label><input type="radio" name="proceso" value="Pendiente" required> Pendiente</label>
+            <label><input type="radio" name="proceso" value="En proceso"> En proceso</label>
+            <label><input type="radio" name="proceso" value="Terminada"> Terminada</label>
+
+            <div>
+                <button type="submit" id="guardar">Guardar</button>
+                <button type="reset">Limpiar</button>
+            </div>
+        </form>
+        <p id="mensaje"></p>
+    </div>
+
+    <div class="Empresa lista">
+        <h2 class="encabezado">Actividades registradas</h2>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

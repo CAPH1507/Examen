@@ -1,0 +1,67 @@
+body {
+    background-color: #101114;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#titulo, .encabezado { text-align: center; color: #D9A66F; }
+
+.Empresa {
+    background-color: #1C1E24;
+    padding: 20px;
+    margin: 30px auto;
+    border: 1px solid #555555;
+    width: 85%;
+    max-width: 550px;
+}
+
+h3 { color: #D9A66F; margin-top: 25px; }
+input, textarea {
+    padding: 10px;
+    margin: 5px;
+    background-color: #30323A;
+    color: white;
+    border: 1px solid #777777;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="text"] { width: 80%; }
+
+textarea { width: 80%; height: 70px; }
+
+label { margin: 10px; color: white; display: inline-block; }
+
+button {
+    min-width: 130px;
+    height: 45px;
+    padding: 10px;
+    margin: 25px 10px;
+    cursor: pointer;
+    background-color: #D9A66F;
+    color: black;
+    border: 1px solid #D9A66F;
+}
+
+button:hover { background-color: #B8834E; }
+
+#mensaje { color: #90EE90; }
+
+.lista { max-width: 850px; }
+
+.tarjeta {
+    background-color: #30323A;
+    border: 1px solid #777777;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.tarjeta h3 { margin-top: 5px; }
+
+.tarjeta p { overflow-wrap: anywhere; }
+
+.tarjeta .estado { color: #D9A66F; font-weight: bold; }
+
+.tarjeta button { margin: 10px 0 0; }

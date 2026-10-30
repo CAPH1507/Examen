@@ -1,0 +1,13 @@
+{
+  "name": "gestion-actividades",
+  "version": "1.0.0",
+  "description": "Sistema sencillo para gestionar actividades de empleados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
